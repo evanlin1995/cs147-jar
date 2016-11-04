@@ -13,6 +13,10 @@
 		C35B07C41DC857DD000BC29F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C35B07C31DC857DD000BC29F /* Images.xcassets */; };
 		C35B07C71DC857DD000BC29F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C35B07C51DC857DD000BC29F /* LaunchScreen.xib */; };
 		C35B07D31DC857DD000BC29F /* JarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35B07D21DC857DD000BC29F /* JarTests.swift */; };
+		C35B07E11DC8687F000BC29F /* GeneralTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35B07E01DC8687F000BC29F /* GeneralTask.swift */; };
+		C35B07E31DC8694D000BC29F /* NSDate+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35B07E21DC8694D000BC29F /* NSDate+Init.swift */; };
+		C35B07E51DC872B1000BC29F /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35B07E41DC872B1000BC29F /* TaskTableViewCell.swift */; };
+		C361DC8A1DCACFCC0055A540 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C361DC891DCACFCC0055A540 /* TaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		C35B07CC1DC857DD000BC29F /* JarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C35B07D11DC857DD000BC29F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C35B07D21DC857DD000BC29F /* JarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JarTests.swift; sourceTree = "<group>"; };
+		C35B07E01DC8687F000BC29F /* GeneralTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralTask.swift; sourceTree = "<group>"; };
+		C35B07E21DC8694D000BC29F /* NSDate+Init.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Init.swift"; sourceTree = "<group>"; };
+		C35B07E41DC872B1000BC29F /* TaskTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
+		C361DC891DCACFCC0055A540 /* TaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,8 @@
 		C35B07AE1DC857DD000BC29F = {
 			isa = PBXGroup;
 			children = (
+				C35B07E01DC8687F000BC29F /* GeneralTask.swift */,
+				C35B07E21DC8694D000BC29F /* NSDate+Init.swift */,
 				C35B07B91DC857DD000BC29F /* Jar */,
 				C35B07CF1DC857DD000BC29F /* JarTests */,
 				C35B07B81DC857DD000BC29F /* Products */,
@@ -79,6 +89,8 @@
 			children = (
 				C35B07BC1DC857DD000BC29F /* AppDelegate.swift */,
 				C35B07BE1DC857DD000BC29F /* ViewController.swift */,
+				C35B07E41DC872B1000BC29F /* TaskTableViewCell.swift */,
+				C361DC891DCACFCC0055A540 /* TaskViewController.swift */,
 				C35B07C01DC857DD000BC29F /* Main.storyboard */,
 				C35B07C31DC857DD000BC29F /* Images.xcassets */,
 				C35B07C51DC857DD000BC29F /* LaunchScreen.xib */,
@@ -213,7 +225,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C35B07BF1DC857DD000BC29F /* ViewController.swift in Sources */,
+				C35B07E11DC8687F000BC29F /* GeneralTask.swift in Sources */,
+				C35B07E51DC872B1000BC29F /* TaskTableViewCell.swift in Sources */,
+				C35B07E31DC8694D000BC29F /* NSDate+Init.swift in Sources */,
 				C35B07BD1DC857DD000BC29F /* AppDelegate.swift in Sources */,
+				C361DC8A1DCACFCC0055A540 /* TaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +421,7 @@
 				C35B07D81DC857DD000BC29F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C35B07D91DC857DD000BC29F /* Build configuration list for PBXNativeTarget "JarTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +430,7 @@
 				C35B07DB1DC857DD000BC29F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
